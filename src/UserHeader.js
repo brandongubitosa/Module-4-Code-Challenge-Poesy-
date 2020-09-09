@@ -5,7 +5,7 @@ class UserHeader extends React.Component {
     return (
       <div className="user-header" >
         <h3>Welcome, {this.props.username}!</h3>
-        <button onClick={() => this.props.clickHandler}>Logout</button>
+        <button onClick={this.props.logout}>Logout</button>
       </div>
     ); 
   }
